@@ -1,0 +1,23 @@
+.about{
+    padding-left: 30px;
+    padding-right: 30px;
+height: 700px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    width: 70%;
+    padding: 20px;
+}
+.about-text h1{
+    color: rgb(86, 127, 86);
+    font-size: 45px;
+    padding: 20px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 25px;
+}

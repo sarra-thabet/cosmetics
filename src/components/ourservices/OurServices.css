@@ -1,0 +1,16 @@
+.services{
+    padding: 20px 40px;
+    height: auto;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-cards-child{
+    padding: 20px;
+} 
+.services-cards-child img{
+    height: 150px;
+    border-radius: 70px;
+}

@@ -1,0 +1,19 @@
+.dashboard{
+    height: 700px;
+    width: 100%;
+   
+}
+.dashboard-menu h1{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 25px;
+}
+.dashboard-menu{
+    padding: 20px;
+    display: flex;
+    width: 20%;
+    height: 800px;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: black;
+}

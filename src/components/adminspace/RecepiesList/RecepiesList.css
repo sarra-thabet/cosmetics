@@ -1,0 +1,11 @@
+.recipes{
+    margin:70px 100px;
+   
+}
+/* RecepiesList.css */
+.wrap-text {
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 600px; 
+  }
+  

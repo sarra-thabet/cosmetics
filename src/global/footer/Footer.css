@@ -1,0 +1,107 @@
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 190px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em; 
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+.footer{
+    margin-top: 30px;
+    background: black;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+padding: 70px 30px;
+justify-content: center;
+
+}
+.information{
+    width: 20%;
+}
+.information .title{
+    padding-bottom: 30px;
+}
+.information  p{
+  padding: 10px;
+}
+.form{
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.form .title{
+    padding-bottom: 40px;
+
+}
+.contact{
+    width: 20%;
+}
+.contact .title{
+    padding-bottom: 30px;
+}
+.contact  p{
+  padding: 10px;
+}
+.copyright{
+    width: 20%;
+    position: relative;
+}
+.copyright p{
+  position: absolute;
+  bottom: 10px;
+}
+
+.copyright .title{
+    padding-bottom: 20px;
+}
+.submit{
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.submit:hover{
+  border: 1px solid white;
+  border-radius: 20px;
+  
+  background:white;
+  color: #222;
+}
+.title{
+  font-size: 25px;
+}

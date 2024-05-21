@@ -1,0 +1,47 @@
+.products{
+    margin:70px 100px;
+    height: auto;
+}
+.wrap-text {
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 600px; 
+  }
+.img-product{
+    width: 200px;
+    height: 150px;
+}
+.back {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background:pink;
+    position: absolute;
+    left: 100px;
+    
+   }
+   
+.back > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+.back:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+.back:hover {
+    box-shadow: 9px 9px 33px pink, -9px -9px 33px pink;
+    transform: translateY(-2px);
+   }

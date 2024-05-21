@@ -1,0 +1,26 @@
+.imgScroll{
+    width: 100%;
+    height: 700px;
+    background-image: center center/cover;
+}
+.image-carousel-container{
+position: relative;
+}
+.header-comp{
+  
+}
+.single-slide{
+    display:flex ;
+align-items: center;
+justify-content: center;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(129, 171, 171);
+    font-size: 50px;
+    z-index: 1; /* Ensure the caption is above the images */
+  }

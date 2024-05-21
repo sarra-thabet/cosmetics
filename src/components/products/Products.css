@@ -1,0 +1,16 @@
+.products{
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-description{
+    height: 50px;
+    overflow-y: scroll;
+}
+.btn{
+    width: 70px;
+    margin: 10px;
+
+}
